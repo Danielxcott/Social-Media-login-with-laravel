@@ -66,5 +66,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Laravel\Socialite\Two\InvalidStateException Solution
 <img width="784" alt="Screen Shot 2022-07-18 at 7 52 07 PM" src="https://user-images.githubusercontent.com/95298352/179521371-0d8581a4-6a0c-408e-b0ac-24189ea7e70e.png">
-
+don't use SESSION_DOMAIN at env. That can thrown you an error
 
