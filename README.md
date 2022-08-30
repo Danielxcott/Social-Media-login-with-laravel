@@ -69,4 +69,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 don't use SESSION_DOMAIN at env. That can thrown you an error
 use stateless at LoginController
  $user = Socialite::driver('google')->stateless()->user();
-  $user = Socialite::driver('facebook')->stateless()->user();
+ 
+ $user = Socialite::driver('facebook')->stateless()->user();
